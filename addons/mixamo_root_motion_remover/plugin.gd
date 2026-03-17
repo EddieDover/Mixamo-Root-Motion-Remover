@@ -275,7 +275,7 @@ class AnimationSelectionDialog:
 		for checkbox in checkboxes:
 			checkbox.button_pressed = pressed
 
-	func _on_animation_checkbox_toggled():
+	func _on_animation_checkbox_toggled(_pressed: bool):
 		_update_select_all_state()
 
 	func _update_select_all_state():
